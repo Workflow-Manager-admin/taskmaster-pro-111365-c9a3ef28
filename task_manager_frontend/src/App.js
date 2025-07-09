@@ -36,8 +36,8 @@ function App() {
   }, []);
 
   return (
-    <AuthProvider>
-      <Router>
+    <Router>
+      <AuthProvider>
         <div className="main-bg">
           <Header />
           <div className="container-layout">
@@ -59,8 +59,8 @@ function App() {
             </main>
           </div>
         </div>
-      </Router>
-    </AuthProvider>
+      </AuthProvider>
+    </Router>
   );
 }
 
